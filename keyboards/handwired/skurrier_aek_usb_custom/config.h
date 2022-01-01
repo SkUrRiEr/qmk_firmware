@@ -26,9 +26,11 @@
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
  */
-//                         2  14   7   8   6  20  21   5
+//          Keyboard row:  0   1   2   3   4   5   6   7
+//           Board label:  2  14   7   8   6  20  21   5
 #define MATRIX_ROW_PINS { D0, D1, D2, D3, D4, D5, D6, D7 }
-//                          0    1   3   4   9  10  11  12  15  16  17  18  19  22  23
+//          Keyboard col:   0    1   2   3   4   5   6   7   8   9  10  11  12  13  14
+//           Board label:   0    1   3   4   9  10  11  12  15  16  17  18  19  22  23
 #define MATRIX_COL_PINS { B16, B17, A1, A2, C3, C4, C6, C7, C0, B0, B1, B3, B2, C1, C2 }
 #define UNUSED_PINS
 
