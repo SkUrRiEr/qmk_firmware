@@ -10,7 +10,7 @@
 #define PRODUCT_ID   0x0000
 #define DEVICE_VER   0x0001
 #define MANUFACTURER SkUrRiEr
-#define PRODUCT      skurrier_aek_usb_custom
+#define PRODUCT      Apple Extended Keyboard (USB)
 
 /* key matrix size */
 #define MATRIX_ROWS 8
